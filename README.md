@@ -1,2 +1,2 @@
 # alx-low_level_programming
-C tutorial
+Repo for alx C lessons
