@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E input.c -o $CFILE.c
+gcc -E "$CFILE" -o c
