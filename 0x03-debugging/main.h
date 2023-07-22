@@ -1,24 +1,8 @@
-#include <stdio.h>                                                                                  
+#ifndef MAIN_H
+#define MAIN_H
 
-/**                                                                                                 
- * main - debugging example                                                                         
- * Return: 0                                                                                        
- */                                                                                                 
-int main(void)                                                                                      
-{                                                                                                   
-        int i;                                                                                      
-        int j;                                                                                      
-        int k;                                                                                      
+#include <stdio.h>
 
-        i = 0;                                                                                      
-        j = 1000;                                                                                   
-        while (i < j)                                                                               
-        {                                                                                           
-                k = j / 98;                                                                         
-                i = i + k;                                                                          
-                printf("%d\n", i);                                                                  
-                j == j - 1;                                                                         
-        }                                                                                           
+void positive_or_negative(int i);
 
-        return (0);                                                                                 
-}       
+#endif /* MAIN_H */
