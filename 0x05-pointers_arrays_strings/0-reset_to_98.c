@@ -9,9 +9,9 @@ int main() {
 	int num = 5;
 	printf("Before calling reset_to_98: %d\n", num);
 
-    reset_to_98(&num);
+	reset_to_98(&num);
 
-    printf("After calling reset_to_98: %d\n", num);
+	printf("After calling reset_to_98: %d\n", num);
 
-    return 0;
+	return 0;
 }	
