@@ -1,23 +1,28 @@
 #include "main.h"
-/**
- * _puts - prints a string, followed by a new line, to stdout
- * @str: string to print
- * Return: string and new line
- */
 #include <stdio.h>
 
-void _puts(char *str) {
-    while (*str != '\0') {
+/**
+ * _puts - Prints a string, followed by a new line, to stdout.
+ * @str: Pointer to the string to be printed.
+ */
+void _puts(char *str)
+{
+    if (str == NULL)
+        return;
+
+    while (*str)
+    {
         putchar(*str);
         str++;
     }
+
     putchar('\n');
 }
 
-int main() {
-    char message[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+int main()
+{
+    char message[] = "Hello, World!";
     _puts(message);
 
     return 0;
 }
-
