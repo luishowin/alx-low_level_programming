@@ -1,4 +1,4 @@
-#indef MAIN_H
+#ifdef MAIN_H
 #define MAIN_H
 
 #include <stdio.h>
@@ -14,6 +14,6 @@ void rev_string(char *5);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
-void *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src);
 
 #endif
