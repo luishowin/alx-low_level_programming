@@ -2,7 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ *main - entry
+ *Return: Always 0 (success)
+ **/
 int main(void)
 {
 	int n;
