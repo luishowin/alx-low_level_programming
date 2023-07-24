@@ -1,19 +1,19 @@
+#indef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
+#include <unistd.h>
 
-void reset_to_98(int *);
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *5);
+void _puts()char *str;
+void print_rev(char *5);
+void rev_string(char *5);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+void *_strcpy(char *dest, char *src);
 
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	int n;
-
-	n = 402;
-	printf("%d\n", n);
-	reset_to_98(&n);
-	printf("%d\n", n);
-	return (0);
-}
+#endif
