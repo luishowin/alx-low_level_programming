@@ -4,14 +4,20 @@
  * @str: string to print
  * Return: string and new line
  */
-void _puts(char *str)
-{
-	int i = 0;
+#include <stdio.h>
 
-	while (str[i])
-	{
-		_putchar(str[i]);
-		i++;
-	}
-	_putchar('\n');
+void _puts(char *str) {
+    while (*str != '\0') {
+        putchar(*str);
+        str++;
+    }
+    putchar('\n');
 }
+
+int main() {
+    char message[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    _puts(message);
+
+    return 0;
+}
+
