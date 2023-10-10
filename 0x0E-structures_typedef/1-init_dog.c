@@ -7,12 +7,12 @@
  * @age: dogs age
  * @owner: dog owners name
 */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+void init_dog(struct dog *d, const char *name, float age, const char *owner)
 {
 	if (d)
 	{
-		d->name = name;
+		d->name = strdup(name);
 		d->age = age;
-		d->owner = owner;
+		d->owner = strdup(owner);
 	}
 }
