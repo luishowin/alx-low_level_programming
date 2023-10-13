@@ -1,12 +1,12 @@
-#include <stdlib.h>
 #include <function_pointers.h>
+#include <stdlib.h>
 
 /**
- * print_name_as_is - prints name as is
- * @name: name of the person
- * 
- * Return: Nothing
+ * print_name - prints name
+ * @name: pointer to the name
+ * @f: pointer to function f
 */
+
 void print_name(char *name, void (*f)(char *))
 {
     if (name && f)
