@@ -2,8 +2,10 @@
 
 /**
  * main - does something
+ * 
+ * return - no output
 */
-int main()
+int main(void)
 {
 	printf("_putchar\n");
 	return 0;
