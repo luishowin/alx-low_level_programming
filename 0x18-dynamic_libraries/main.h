@@ -1,5 +1,5 @@
-#ifndef LIBNYNAMIC
-#define LIBNYNAMIC
+#ifndef LIBDYNAMIC
+#define LIBDYNAMIC
 
 int _putchar(char c);
 int _islower(int c);
