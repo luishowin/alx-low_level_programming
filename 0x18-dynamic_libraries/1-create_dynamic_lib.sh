@@ -1,6 +1,3 @@
 #!/bin/bash
-# Compile all .c files into object files
-gcc -c -fPIC *.c
+gcc -shared -o liball.so -fPIC *.c
 
-# Create the dynamic library
-gcc -shared -o liball.so *.o
